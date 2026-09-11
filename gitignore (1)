@@ -1,0 +1,9 @@
+# Ne jamais versionner les vrais identifiants
+config.php
+
+# Fichiers systeme
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

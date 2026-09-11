@@ -1,0 +1,308 @@
+.accueil{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 14px 24px;
+    background-color: white;
+    box-shadow: 0 4px 18px rgba(60, 78, 112, 0.14);
+    border-radius: 0 0 24px 24px;
+}
+.menu>button{
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+}
+.accueil>img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.menu{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 6px;
+    background-color: #f4f7fb;
+    border: 1px solid #e1e7f0;
+    border-radius: 16px;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+}
+.menu a,
+.accueil>button a{
+    display: block;
+    padding: 10px 14px;
+    color: #30415f;
+    font-size: 0.92rem;
+    font-weight: 600;
+    white-space: nowrap;
+    border-radius: 11px;
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+.menu a:hover,
+.menu a:focus-visible{
+    color: #1f5fae;
+    background-color: white;
+    box-shadow: 0 3px 10px rgba(60, 78, 112, 0.12);
+    transform: translateY(-1px);
+}
+.menu a:focus-visible,
+.accueil>button a:focus-visible{
+    outline: 3px solid rgba(31, 95, 174, 0.28);
+    outline-offset: 2px;
+}
+.accueil>button{
+    padding: 0;
+    background-color: #1f5fae;
+    border: 0;
+    border-radius: 11px;
+    box-shadow: 0 4px 12px rgba(31, 95, 174, 0.24);
+}
+.accueil>button a{
+    color: white;
+    padding: 11px 16px;
+}
+.accueil>button:hover{
+    background-color: #174b8c;
+}
+.affiche{
+    background-color: aliceblue;
+    padding: 100px;
+    align-items: end;
+    border-radius: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+}
+.affiche>img{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 20px;
+
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: cornflowerblue;
+    box-shadow:1px 1px 20px grey ;
+}
+.apropos{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.apropos>img{
+    width: 500px;
+    height: 500px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 20px;
+}
+.proposition{
+  display: flex;  
+  justify-content: space-around;
+  gap: 10px
+}
+.chambre{
+    box-shadow: 1px 1px 20px; 
+}
+.chambre>a>img{
+width: 250px;
+height: 250px;
+}
+.cuisine>img{
+width: 250px;
+height: 250px;
+}
+.bureau>img{
+width: 250px;
+height: 250px;
+}
+.toilette>img{
+width: 250px;
+height: 250px;
+}
+.couloir>img{
+width: 250px;
+height: 250px;
+}
+.jardin>img{
+width: 250px;
+height: 250px;
+}
+.lumiere>img{
+width: 250px;
+height: 250px;
+}
+.chambre>img{
+width: 250px;
+height: 250px;
+}
+.decor>img{
+width: 250px;
+height: 250px;
+}
+.reunion>img{
+width: 250px;
+height: 250px;
+}
+.salon>img{
+width: 250px;
+height: 250px;
+}
+.vase>img{
+width: 250px;
+height: 250px;
+}
+.galerie-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+.galerie-grid>img{
+    box-shadow: 1px 1px 20px grey;
+    border-radius: 10px;
+}
+.sous-page .accueil{
+    margin-bottom: 20px;
+}
+.retour{
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+}
+.retour>a{
+    background-color: whitesmoke;
+    padding: 10px 25px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px grey;
+    color: cornflowerblue;
+}
+.nos-projets{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+.nos-projets>img{
+    width: 280px;
+    height: 280px;
+    box-shadow: 1px 1px 20px grey;
+    border-radius: 10px;
+}
+.contact{
+    background-color: aliceblue;
+    padding: 50px;
+    border-radius: 50px;
+    margin: 20px;
+    text-align: center;
+}
+.contact p{
+    margin: 8px 0;
+}
+.contact-map{
+    width: 100%;
+    max-width: 900px;
+    margin: 25px auto 0;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px grey;
+}
+.contact-map iframe{
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+@media (max-width: 800px){
+    .accueil{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .accueil>img{
+        width: 76px;
+        height: 76px;
+    }
+    .menu{
+        order: 3;
+        flex-basis: 100%;
+    }
+}
+footer{
+    text-align: center;
+    padding: 25px;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    box-shadow: 1px 1px 20px grey;
+}
+
+/* ===== Formulaires (inscription / connexion) ===== */
+.form-page{
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+}
+.form-box{
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 20px grey;
+    border-radius: 30px;
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.form-box input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.form-box button{
+    padding: 12px;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px grey;
+    cursor: pointer;
+}
+.form-box p{
+    text-align: center;
+}
+.message{
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 0 auto 20px;
+    max-width: 400px;
+}
+.message.succes{
+    background-color: #dff5e1;
+    color: #2e7d32;
+}
+.message.erreur{
+    background-color: #fde2e2;
+    color: #c62828;
+}
+.espace{
+    text-align: center;
+    padding: 80px 20px;
+}
+
