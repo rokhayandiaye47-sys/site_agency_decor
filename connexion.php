@@ -11,13 +11,13 @@
 <p class="message erreur"><?= htmlspecialchars($_GET['erreur']) ?></p>
 <?php endif; ?>
 <div class="accueil">
- <a href="accueil.html"><img src="media/images/logo.png" alt="" width="100" height="100"></a>
+ <a href="index.html"><img src="media/images/logo.png" alt="" width="100" height="100"></a>
 <div class="menu">
-<button><a href="accueil.html#accueil">Accueil</a></button>
-<button><a href="accueil.html#propos">A propos</a></button>
-<button><a href="accueil.html#proposition">Nous vous proposons</a></button>
-<button><a href="accueil.html#projets">Nos projets</a></button>
-<button><a href="accueil.html#contact">Contactez-nous</a></button>
+<button><a href="index.html#accueil">Accueil</a></button>
+<button><a href="index.html#propos">A propos</a></button>
+<button><a href="index.html#proposition">Nous vous proposons</a></button>
+<button><a href="index.html#projets">Nos projets</a></button>
+<button><a href="index.html#contact">Contactez-nous</a></button>
 </div>
 <button><a href="connexion.php">SE CONNECTER</a></button>
 </div>

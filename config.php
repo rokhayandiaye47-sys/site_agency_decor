@@ -1,7 +1,6 @@
 <?php
 // Identifiants de connexion à la base de données
 // Sous WAMP, DB_USER est souvent 'root' et DB_PASS vide.
-<?php
 define('DB_HOST', 'sql213.infinityfree.com');
 define('DB_NAME', 'if0_42894244_revision_vac');
 define('DB_USER', 'if0_42894244');
